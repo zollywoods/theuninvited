@@ -34,6 +34,22 @@ export default function Home() {
              trailer and teasers gallery
             </li>
           </ul>
+          <div className={styles.splashFlex}>
+            <div className={styles.splashBlurb}>
+              "an acting masterclass"
+              <br/>
+              <i className={styles.source}> Collider </i>
+            </div>
+            <div className={styles.splashRight}>
+            <ul className={styles.menu}>
+              <li className={styles.menuItem} id={styles.menuItemSeven}> 
+              go deeper : the film workbook
+              </li>
+            </ul>
+            </div>
+
+
+          </div>
           <img src="/imgs/splash.png" alt="poster" className={styles.splashImage} />
           <div className={styles.names}>
             <div className={styles.name}>
