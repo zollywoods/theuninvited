@@ -62,14 +62,14 @@ export default function thefilm() {
             </div>
           </div> */}
             <div className={styles.innerPageTitle}> 
-              the film 
+              the filmmakers
              </div>
 
 
           <img src="/imgs/sammy.png" alt="poster" className={styles.splashImage} />
           <div className={styles.textBoxInnerPage}>
             <div className={styles.textBoxInnerPageHeader}>
-              the synopsis
+              Nadia Conners
             </div>
           Lorem ipsum odor amet, consectetuer adipiscing elit. Semper interdum odio nunc auctor blandit. Tempor velit inceptos a ad augue praesent maximus orci. Lacus phasellus suscipit quis; sodales orci sagittis. In egestas arcu viverra dictumst suscipit vitae lobortis. Dolor tellus elit eu quis tempus eu diam a. Facilisis diam pulvinar augue cursus primis donec consectetur. Finibus primis in finibus nullam ornare massa egestas molestie ipsum. Porta nulla fames est morbi aliquet. Pharetra nostra auctor ullamcorper phasellus in semper dapibus torquent.
 

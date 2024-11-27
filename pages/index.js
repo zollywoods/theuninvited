@@ -23,12 +23,16 @@ export default function Home() {
               the film
               </li>
             </a>
+            <a className={styles.menuItemLink} href="/thefilmmakers"> 
             <li className={styles.menuItem} id={styles.menuItemTwo}> 
              the filmmakers
             </li>
+            </a>
+            <a className={styles.menuItemLink} href="/thecast"> 
             <li className={styles.menuItem} id={styles.menuItemThree}> 
              the cast
             </li>
+            </a>
             <li className={styles.menuItem} id={styles.menuItemFour}> 
              press
             </li>
