@@ -1,23 +1,28 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>The Uninvited</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <div className={styles.homePage}>
-          <div className={styles.title}>
-            the uninvited
-          </div>
+        <div className={styles.title}>
+              <a className={styles.menuItemLink} href="/">
+                the uninvited
+              </a>
+            </div>
           <ul className={styles.menu}>
-            <li className={styles.menuItem}> 
-             the film
-            </li>
+            <a className={styles.menuItemLink} href="/thefilm"> 
+              <li className={styles.menuItem}> 
+              the film
+              </li>
+            </a>
             <li className={styles.menuItem} id={styles.menuItemTwo}> 
              the filmmakers
             </li>
@@ -33,8 +38,13 @@ export default function Home() {
             <li className={styles.menuItem} id={styles.menuItemSix}> 
              trailer and teasers gallery
             </li>
+            <li className={styles.menuItem} id={styles.menuItemSeven}> 
+              the film workbook
+              </li>
+
           </ul>
-          <div className={styles.splashFlex}>
+          
+          {/* <div className={styles.splashFlex}>
             <div className={styles.splashBlurb}>
               "an acting masterclass"
               <br/>
@@ -47,9 +57,8 @@ export default function Home() {
               </li>
             </ul>
             </div>
+          </div> */}
 
-
-          </div>
           <img src="/imgs/splash.png" alt="poster" className={styles.splashImage} />
           <div className={styles.names}>
             <div className={styles.name}>
@@ -86,7 +95,15 @@ export default function Home() {
             <img src="/imgs/actors/6_actor.png" className={styles.actorImage} alt="eva" />
           </div>
           <div className={styles.textBox}>
-            
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Semper interdum odio nunc auctor blandit. Tempor velit inceptos a ad augue praesent maximus orci. Lacus phasellus suscipit quis; sodales orci sagittis. In egestas arcu viverra dictumst suscipit vitae lobortis. Dolor tellus elit eu quis tempus eu diam a. Facilisis diam pulvinar augue cursus primis donec consectetur. Finibus primis in finibus nullam ornare massa egestas molestie ipsum. Porta nulla fames est morbi aliquet. Pharetra nostra auctor ullamcorper phasellus in semper dapibus torquent.
+
+Cras amet consectetur proin turpis sociosqu felis pharetra habitant sodales. In tempor ante tempus donec dictumst amet quis. Elit proin blandit maecenas venenatis malesuada quis tincidunt tristique nisl. Fermentum sodales vestibulum ante; eleifend est curae. Curae id urna consectetur commodo at consequat finibus. Sodales fusce mi morbi; lectus aenean id duis quis. Semper interdum sem condimentum eu eu luctus hac mi primis. Vulputate nascetur eros curae; fames eget quis. Elementum mauris elementum sagittis enim mollis aliquet curabitur.
+
+Anetus suscipit nibh molestie curae.   <br/><br/> Tempor ac aliquet proin ex quisque neque gravida. Iaculis vestibulum montes dapibus primis posuere arcu felis. Facilisis leo lacus diam eu magnis pulvinar torquent. Urna duis accumsan condimentum feugiat vivamus. Sem semper dis vivamus potenti posuere hac. Sit rhoncus facilisi eros ornare ut per at vitae. In nulla lorem sit, eget natoque conubia fringilla. Congue malesuada ultrices vehicula rhoncus massa.
+
+Diam parturient quis placerat proin phasellus. <br/><br/>Felis  ligula aliquam per arcu vestibulum tortor tellus. Vulputate mattis quisque laoreet placerat, porttitor euismod. Nibh convallis sit morbi malesuada lacinia netus. Tristique augue nisi ullamcorper ultricies nibh finibus. Malesuada varius parturient viverra et ut non erat parturient. Mollis quam tempor conubia elementum sociosqu commodo. Laoreet hendrerit senectus leo massa tortor elementum.
+
+
           </div>
         </div>
       </main>

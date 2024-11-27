@@ -8,28 +8,36 @@
 }
 
 .title{
-  font-size: 4rem;  
+  font-size: 2.5rem;  
   font-weight: bold;
   font-family: Helvetica;
+  text-align: center;
 }
 
 .menu{
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 
 }
 
 
 .menuItem{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   background-color: #ffad02;
   width: fit-content;
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  color: white;
+}
+
+.menuItemLink{
+  text-decoration: none;
+  color: inherit;
 }
 
 .menuItem#menuItemTwo{
@@ -54,6 +62,7 @@
 
 .menuItem#menuItemSeven{
   background-color: #b3e0e2;
+  color: #bb3710;
 }
 
 .menuItem:hover{
@@ -121,6 +130,34 @@
   background-color: #e7e1d3;
   margin: 0 auto;
   margin-top: 50px;
+  padding: 20px;
+  font-size: 1.2rem;
 
   height: 500px;
+}
+
+.textBoxInnerPageHeader{
+  font-size: 1.3rem;  
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.textBoxInnerPage{
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 25px;
+  font-size: 1.2rem;
+
+  height: 500px;
+}
+
+
+.innerPageTitle{
+  font-size: 1.5rem;  
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: 30px;
 }
